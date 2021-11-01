@@ -1,7 +1,6 @@
 {
     "name": "influence/sdk",
     "description": "This client allows you to implement referral programs using the Influence RESTful API",
-    "type": "composer-plugin",
     "autoload": {
         "psr-4": {
             "Influence\\Sdk\\": "src/"
@@ -13,5 +12,7 @@
             "email": "artakmanukyan17@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    }
 }
