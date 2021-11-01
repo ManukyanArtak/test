@@ -1,18 +1,24 @@
 {
-    "name": "influence/sdk",
-    "description": "This client allows you to implement referral programs using the Influence RESTful API",
-    "autoload": {
-        "psr-4": {
-            "Influence\\Sdk\\": "src/"
-        }
-    },
+    "name": "4over4referrals/4over4referrals",
+    "type": "library",
+    "description": "This client allows you to implement referral programs using the Influence RESTful API.",
+    "keywords": ["referral", "referrals", "refer", "friend", "friends", "referral marketing programs", "word of mouse", "promotion programs", "referral programs", "refer a friend", "promotion campaigns", "referral campaigns", "marketing campaigns", "afiliation", "affiliate", "refer friend", "affiliates", "geniusreferrals"],
+    "license": "MIT",
     "authors": [
         {
-            "name": "Artak Manukytan",
-            "email": "artakmanukyan17@gmail.com"
+            "name": "4over4 Referral",
+            "email": "atrakmanukyan17@gmail.com"
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^7.4"
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ForOverReferralsLib\\": "src/"
+        }
     }
 }
